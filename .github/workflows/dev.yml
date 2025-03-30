@@ -41,3 +41,4 @@ jobs:
       - name: Terraform Apply
         working-directory: dev
         run: terraform apply -auto-approve -no-color
+#test
