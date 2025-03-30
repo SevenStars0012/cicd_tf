@@ -10,3 +10,4 @@ resource "aws_s3_bucket" "web_bucket" {
 output "bucket_name" {
   value = aws_s3_bucket.web_bucket.bucket
 }
+#test
