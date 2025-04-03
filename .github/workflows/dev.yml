@@ -9,7 +9,7 @@ on:
 
 env:
   AWS_REGION: "ap-northeast-1"
-  AWS_ROLE_NAME: "github-actions-cicd-role"  # ← ロール名はこれでOK！
+  AWS_ROLE_NAME: "github-actions-cicd-role"
   TF_VERSION: "1.8.5"
   TF_VAR_aws_region: "ap-northeast-1"
   TF_TOKEN_app_terraform_io: ${{ secrets.TERRAFORM_CLOUD_TOKEN }}

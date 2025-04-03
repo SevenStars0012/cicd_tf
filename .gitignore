@@ -35,3 +35,12 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Terraform関連
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate*
+terraform.tfvars
+
+# LambdaビルドZIP
+lambda/lambda.zip
